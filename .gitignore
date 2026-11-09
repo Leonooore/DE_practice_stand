@@ -1,0 +1,61 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.Trash-0/
+notebooks/Untitled*.ipynb
+
+# Runtime / temp
+*.log
+*.pid
+*.bak
+*.tmp
+
+# Local service data
+metabase-data/
+minio_data/
+ch_data/
+pg_data/
+airflow/logs/
+airflow/*-db/
+
+# Student-local / runtime folders
+workspace/*
+!workspace/.gitkeep
+
+db/work/*
+!db/work/.gitkeep
+
+data/raw/*
+!data/raw/.gitkeep
+
+dags/*
+!dags/.gitkeep
+
+jars/*
+!jars/.gitkeep
+
+notebooks/workspace/*
+!notebooks/workspace/.gitkeep
+
+notebooks/data/*
+!notebooks/data/.gitkeep
+
+notebooks/datasets/*
+!notebooks/datasets/.gitkeep
+
+# Optional extra local jars
+jars_local/
